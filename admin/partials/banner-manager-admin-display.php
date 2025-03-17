@@ -4,6 +4,14 @@ if (!defined('ABSPATH')) {
 }
 ?>
 
+<div class="banner-manager-info">
+    <h3>Как использовать баннер</h3>
+    <p>Для добавления баннера на страницу или в запись используйте следующий шорткод:</p>
+    <code>[banner_manager]</code>
+    <p>Просто вставьте этот шорткод в нужное место в редакторе страницы или записи.</p>
+    <p>Баннер будет отображаться с настроенными параметрами UTM и будет открываться в новой вкладке при клике.</p>
+</div>
+
 <div class="wrap">
     <h1><?php echo esc_html(get_admin_page_title()); ?></h1>
     <form method="post" action="options.php">

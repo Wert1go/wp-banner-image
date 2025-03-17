@@ -1,0 +1,17 @@
+.banner-manager-admin .form-table th {
+    width: 200px;
+}
+
+.banner-manager-admin .form-table td {
+    padding: 15px 10px;
+}
+
+.banner-manager-admin input[type="text"],
+.banner-manager-admin input[type="url"] {
+    width: 100%;
+    max-width: 400px;
+}
+
+#banner_manager_image {
+    margin-right: 10px;
+} 
